@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme{
+  --color-btn-primary: #00C805;
+}
+.active{
+  border-bottom: 2px solid green;
+  border-radius: none;
+}
