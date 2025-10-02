@@ -5,6 +5,7 @@ import Statistics from '../Pages/Statistics';
 import Industry from '../Pages/Industry';
 import Gallery from '../Pages/Gallery';
 import BlogResearch from '../Pages/BlogResearch';
+import FAQ from '../Pages/FAQ';
 
 const MainLayout = () => {
     return (
@@ -15,6 +16,7 @@ const MainLayout = () => {
             <Industry/>
             <Gallery/>
             <BlogResearch/>
+            <FAQ/>
         </div>
     );
 };
