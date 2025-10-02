@@ -1,4 +1,5 @@
 import logo from "../../images/logo.png";
+import logo1 from "../../images/logo1.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 const Nav = () => {
@@ -41,7 +42,11 @@ const Nav = () => {
                   aria-label="close sidebar"
                   className="drawer-overlay "
                 ></label>
-                <ul className="menu bg-base-100  text-base-content min-h-full  w-80 p-4">
+                <ul className="menu bg-gradient-to-r from-[#06422c] via-[#013522] to-[#035a3aee]  text-white min-h-full  w-80 p-4">
+                    <div className="flex items-center gap-2 mb-6 border-b border-white pb-4">
+                        <img src={logo1} className="w-10 h-auto" alt="" />
+                        <h1 className="text-xl font-semibold">PajeetLand</h1>
+                    </div>
                   {/* Sidebar content here */}
                   {links}
                 </ul>
