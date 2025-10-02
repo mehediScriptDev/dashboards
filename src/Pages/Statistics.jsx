@@ -53,8 +53,8 @@ const cards = [
 
 export default function Statistics() {
   return (
-    <section className="bg-gray-50 py-10">
-      <div className=" lg:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-gray-50 py-10 xl:py-20">
+      <div className=" lg:w-10/12 xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-6">
           {cards.map((c) => (
             <div

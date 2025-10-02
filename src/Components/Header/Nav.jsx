@@ -24,7 +24,7 @@ const Nav = () => {
   );
   return (
     <div className="relative z-50 bg-gradient-to-r from-[#06422c]/10 via-[#013522cd]/35 to-[#035a3ab8]/35">
-      <div className="navbar z-10 lg:w-10/12 mx-auto ">
+      <div className="navbar z-10 lg:w-10/12 mx-auto xl:max-w-7xl">
         <div className="navbar-start">
           <div className="dropdown mr-0 lg:hidden">
             <div className="drawer">
@@ -64,7 +64,7 @@ const Nav = () => {
               className="select select-ghost w-10 "
             ></select>
           </div>
-          <a className="btn btn-xs md:btn-sm bg-btn-primary border-transparent px-6 text-white">
+          <a className="btn btn-xs shadow-none md:btn-sm bg-btn-primary border-transparent px-6 text-white">
             Download App
           </a>
         </div>
