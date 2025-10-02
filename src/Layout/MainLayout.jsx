@@ -6,6 +6,7 @@ import Industry from '../Pages/Industry';
 import Gallery from '../Pages/Gallery';
 import BlogResearch from '../Pages/BlogResearch';
 import FAQ from '../Pages/FAQ';
+import CTAFooter from '../Pages/CTAFooter';
 
 const MainLayout = () => {
     return (
@@ -17,6 +18,7 @@ const MainLayout = () => {
             <Gallery/>
             <BlogResearch/>
             <FAQ/>
+            <CTAFooter/>
         </div>
     );
 };
