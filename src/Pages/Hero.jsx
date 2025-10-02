@@ -2,9 +2,9 @@
 
 const Hero = () => {
     return (
-        <div className="relative h-[688px] bg-[url('../../src/images/banner.png')] bg-cover bg-center flex items-center">
+        <div className="relative px-4 sm:px-6 md:px-8 lg:px-10 h-[688px] bg-[url('../../src/images/banner.png')] bg-cover bg-center flex items-center">
           <div className='absolute bg-gradient-to-r from-[#06422c]/55 via-[#013522cd]/35 to-[#035a3ab8]/35 inset-0'></div>
-          <div className="z-10 w-full lg:w-10/12 xl:max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
+          <div className="z-10 w-full lg:w-10/12 xl:max-w-7xl mx-auto ">
             <div className="text-white max-w-2xl">
             <button className="border px-4 sm:px-6 py-2 sm:py-2.5 bg-white/5 rounded-full text-white shadow-none backdrop-blur-xs text-xs sm:text-xs">Professional Drone Services Across India</button>
             <h1 className="leading-relaxed text-left text-3xl sm:text-4xl md:text-5xl font-bold mt-4 sm:mt-0">Elevate Your Business with Advanced <span className="text-btn-primary">Drone Solutions</span></h1>

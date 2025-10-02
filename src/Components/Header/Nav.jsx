@@ -24,7 +24,7 @@ const Nav = () => {
   );
   return (
     <div className="relative z-50 bg-gradient-to-r from-[#06422c]/10 via-[#013522cd]/35 to-[#035a3ab8]/35">
-      <div className="navbar z-10 lg:w-10/12 mx-auto xl:max-w-7xl">
+      <div className="navbar z-10 w-11/12 mx-auto 2xl:max-w-9/12">
         <div className="navbar-start">
           <div className="dropdown mr-0 lg:hidden">
             <div className="drawer">
