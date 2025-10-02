@@ -26,7 +26,7 @@ const Industry = () => {
 
     return (
         <div className="py-16 px-4 sm:px-6 md:px-8 lg:px-10 bg-white">
-            <div className="lg:w-10/12 mx-auto">
+            <div className="lg:w-10/12 xl:max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -42,7 +42,7 @@ const Industry = () => {
                     {industries.map((industry, index) => (
                         <div
                             key={index}
-                            className="bg-white rounded-lg p-8 hover:shadow-lg transition-shadow duration-300"
+                            className="bg-sky-100 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300"
                         >
                             {/* Icon */}
                             <div className="text-4xl mb-4">{industry.icon}</div>
