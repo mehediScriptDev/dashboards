@@ -23,13 +23,13 @@ const Nav = () => {
     </>
   );
   return (
-    <div className="relative -z-0 bg-gradient-to-r from-[#06422c]/10 via-[#013522cd]/35 to-[#035a3ab8]/35">
-      <div className="navbar z-10 lg:w-10/12 mx-auto shadow-sm">
+    <div className="relative z-50 bg-gradient-to-r from-[#06422c]/10 via-[#013522cd]/35 to-[#035a3ab8]/35">
+      <div className="navbar z-10 lg:w-10/12 mx-auto ">
         <div className="navbar-start">
           <div className="dropdown mr-0 lg:hidden">
             <div className="drawer">
               <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-              <div className="drawer-content">
+              <div className="drawer-content ">
                 {/* Page content here */}
                 <label htmlFor="my-drawer" className="">
                   <FaBars />
@@ -39,9 +39,9 @@ const Nav = () => {
                 <label
                   htmlFor="my-drawer"
                   aria-label="close sidebar"
-                  className="drawer-overlay"
+                  className="drawer-overlay "
                 ></label>
-                <ul className="menu bg-base-100 text-base-content min-h-full w-80 p-4">
+                <ul className="menu bg-base-100  text-base-content min-h-full  w-80 p-4">
                   {/* Sidebar content here */}
                   {links}
                 </ul>
