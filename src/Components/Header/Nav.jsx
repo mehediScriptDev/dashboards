@@ -63,17 +63,10 @@ const Nav = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{links}</ul>
+          <ul className="menu menu-horizontal [&_a]:rounded-none px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <div className="hidden md:flex items-center">
-            <label htmlFor="hello">EN</label>
-            <select
-              name="hello"
-              defaultValue="Pick"
-              className="select select-ghost w-10 "
-            ></select>
-          </div>
+          
           <a className="btn btn-xs shadow-none md:btn-sm bg-btn-primary border-transparent px-6 text-white">
             Download App
           </a>

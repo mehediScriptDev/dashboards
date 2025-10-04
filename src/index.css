@@ -6,5 +6,8 @@
 }
 .active{
   border-bottom: 2px solid green;
-  border-radius: none;
+  border-radius: none !important;
+}
+.menu{
+  border-radius: 0 !important;
 }
