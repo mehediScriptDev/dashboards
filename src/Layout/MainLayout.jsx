@@ -18,7 +18,7 @@ const MainLayout = () => {
             <Gallery/>
             <BlogResearch/>
             <FAQ/>
-            <CTAFooter/>
+            {/* <CTAFooter/> */}
         </div>
     );
 };
