@@ -1,8 +1,10 @@
-// import bg from '../../src/images/banner.png';
+import bg from '../../src/images/banner.png';
 
 const Hero = () => {
     return (
-        <div className="relative px-4 sm:px-6 md:px-8 lg:px-10 h-[688px] bg-[url('../../src/images/banner.png')] bg-cover bg-center flex items-center">
+        <div style={{
+            backgroundImage: `url(${bg})`,  
+        }} className="relative px-4 sm:px-6 md:px-8 lg:px-10 h-[688px]  bg-cover bg-center flex items-center">
           <div className='absolute bg-gradient-to-r from-[#06422c]/70 via-[#013522cd]/60 to-[#035a3ab8]/35 inset-0'></div>
           <div className="z-10 w-full lg:w-10/12 xl:max-w-7xl mx-auto ">
             <div className="text-white max-w-2xl">
