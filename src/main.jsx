@@ -8,6 +8,7 @@ import App from './App';
 import About from './Pages/About';
 import Services from './Pages/Services';
 import Blog from './Pages/Blog';
+import Dashboards from './Pages/Dashboards';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/blog",
         element:<Blog/>
+      },
+      {
+        path:"/dashboards",
+        element:<Dashboards/>
       },
     ]
   },

@@ -2,6 +2,7 @@ import logo from "../../images/logo.png";
 import logo1 from "../../images/logo1.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import Dashboards from './../../Pages/Dashboards';
 const Nav = () => {
   const links = (
     <>
@@ -20,6 +21,10 @@ const Nav = () => {
       <li>
         {" "}
         <NavLink to={"/blog"}>Blog & Research</NavLink>{" "}
+      </li>
+      <li>
+        {" "}
+        <NavLink to={"/dashboards"}>Dashboards</NavLink>{" "}
       </li>
     </>
   );
