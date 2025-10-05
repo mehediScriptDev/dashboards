@@ -120,7 +120,7 @@ export default function Nav() {
             <div className="relative">
               <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className="flex items-center space-x-1 text-gray-700 hover:text-green-500 transition-colors duration-200"
+                className="flex items-center space-x-1 text-gray-700 border-none hover:text-green-500 transition-colors duration-200"
               >
                 <span className="text-sm font-medium">EN</span>
                 <ChevronDown className="w-4 h-4" />
@@ -129,8 +129,7 @@ export default function Nav() {
               {isLangOpen && (
                 <div className="absolute right-0 mt-2 w-32 bg-white rounded-md shadow-lg py-1 z-10 border border-gray-200">
                   <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-500">English</a>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-500">Spanish</a>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-500">French</a>
+                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-500">Hindi</a>
                 </div>
               )}
             </div>
