@@ -64,7 +64,8 @@ const Services = () => {
         backgroundImage: `url(${Banner})`,
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-l from-[#00c80500] to-[#003301b8]"></div>
+      
+          <div className='absolute bg-gradient-to-r from-[#06422c]/70 via-[#013522cd]/60 to-[#035a3ab8]/35 inset-0'></div>
       <div className="z-10 w-full lg:w-10/12 xl:max-w-7xl mx-auto ">
         <div className="text-white max-w-2xl">
           <h1 className="leading-relaxed text-left text-3xl sm:text-4xl md:text-5xl font-bold mt-4 sm:mt-0">

@@ -8,15 +8,15 @@ export default function CTAFooter() {
       <div className="bg-gray-50 py-16 px-4 sm:px-6 md:px-8 lg:px-10">
         <div className="lg:w-10/12 mx-auto max-w-7xl">
           <div className="bg-green-900 relative -mb-42 z-40 rounded-2xl p-8 md:p-12 text-center shadow-lg">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6">
               Let's book a drone!
             </h2>
-            <p className="text-white text-base md:text-lg max-w-4xl mx-auto mb-8 leading-relaxed">
+            <p className="text-white text-sm md:text-lg max-w-4xl mx-auto mb-8 leading-relaxed">
               Get cutting-edge drone services tailored for your needs — from agriculture and construction to energy, safety, and
               more. Our certified pilots and advanced technology ensure accuracy, efficiency, and safety every time. Book today and
               experience the future of aerial solutions.
             </p>
-            <button className="bg-white hover:bg-gray-100 text-green-500 font-semibold px-8 py-3 rounded-lg transition-colors shadow-md">
+            <button className="btn btn-sm md:btn-md lg:btn-lg bg-btn-primary  text-white border-transparent text-xs lg:text-[16px] font-semibold px-8 py-3 rounded-md transition-colors shadow-md">
               Book a Service
             </button>
           </div>

@@ -6,37 +6,7 @@ import cardimage2 from '../images/aboutcard2.jpg'
 import cardimage3 from '../images/aboutcard3.jpg'
 
 export default function CompleteSections() {
-  const values = [
-    {
-      icon: Shield,
-      title: 'Safety First',
-      description: 'Unwavering commitment to regulations and compliance.'
-    },
-    {
-      icon: Zap,
-      title: 'Innovation',
-      description: 'Constantly pushing boundaries and continuous improvement.'
-    },
-    {
-      icon: Globe,
-      title: 'Pan-India Reach',
-      description: 'Delivering services across all terrains.'
-    },
-    {
-      icon: Users,
-      title: 'Customer Focus',
-      description: 'Dedicated to achieving superior client result.'
-    }
-  ];
 
-  const certifications = [
-    'DGCA Remote Pilot License',
-    'NABL Accredited Laboratory',
-    'ISO 45001:2018 (Occupational Health and Safety Management)',
-    'ISO 9001:2015 (Quality Management)',
-    'Ministry of Civil Aviation Approval',
-    'Caliber of Drones (Reliability in Service)'
-  ];
 
   const team = [
     {
@@ -67,60 +37,9 @@ export default function CompleteSections() {
 
   return (
     <div className="bg-gray-50">
-      {/* Core Values Section */}
-      <div className="py-16 px-8">
-        <div className="lg:w-10/12 xl:max-w-7xl mx-auto">
-          <h2 className="text-3xl lg:text-[40px] font-bold text-center text-gray-900 mb-12">
-            Our Core Values
-          </h2>
+      
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {values.map((value, index) => {
-              const Icon = value.icon;
-              return (
-                <div
-                  key={index}
-                  className="bg-white rounded-2xl p-6 text-center"
-                >
-                  <div className="flex justify-center mb-3">
-                    <Icon className="w-8 h-8 text-green-500" strokeWidth={2} />
-                  </div>
-                  <h3 className="text-[16px] font-bold text-gray-900 mb-2">
-                    {value.title}
-                  </h3>
-                  <p className="text-xs text-gray-600 leading-relaxed">
-                    {value.description}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Certifications & Approvals Section */}
-      <div className="py-16 px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-[40px] font-bold text-center text-gray-900 mb-3">
-            Certifications & Approvals
-          </h2>
-          <p className="text-center text-gray-600 mb-10 text-xl">
-            Our commitment to excellence is validated by industry-leading certifications and government approvals.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {certifications.map((cert, index) => (
-              <div
-                key={index}
-                className="flex items-center gap-3 bg-gray-50 rounded-lg p-4"
-              >
-                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                <span className="text-[12px] text-gray-800">{cert}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+   
 
       {/* Meet Our Team Section */}
       <div className="py-16 px-8 bg-gray-50">

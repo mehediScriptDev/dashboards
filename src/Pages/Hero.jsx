@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bg from '../../src/images/banner.png';
 
 const Hero = () => {
@@ -11,9 +12,9 @@ const Hero = () => {
             <button className="border px-4 sm:px-6 py-2 sm:py-2.5 bg-white/5 rounded-full text-white shadow-none backdrop-blur-xs text-xs sm:text-xs">Professional Drone Services Across India</button>
             <h1 className="leading-relaxed text-left text-3xl sm:text-4xl md:text-5xl font-bold mt-4 sm:mt-0">Elevate Your Business with Advanced <span className="text-green-400">Drone Solutions</span></h1>
             <p className="text-white text-base sm:text-lg md:text-xl py-3">From precision agriculture to infrastructure inspection, we deliver cutting-edge aerial solutions for enterprises, government, and specialized industries.</p>
-            <button className="px-4 sm:px-6 py-2.5 sm:py-3 mt-4 bg-btn-primary hover:bg-green-700 text-white font-semibold shadow-md transition duration-300 text-sm sm:text-base">
+            <Link to={'/services'} className="px-4 sm:px-6 py-2.5 sm:py-3 mt-4 inline-block bg-btn-primary hover:bg-green-700 text-white font-semibold shadow-md transition duration-300 text-sm sm:text-base">
                 Book a Service
-            </button>
+            </Link>
             </div>
           </div>
           <div></div>

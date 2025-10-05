@@ -5,7 +5,7 @@
   --color-btn-primary: #00C805;
 }
 .active{
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid rgb(20, 219, 20);
   border-radius: none !important;
 }
 .menu{

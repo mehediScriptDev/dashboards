@@ -9,6 +9,7 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Blog from './Pages/Blog';
 import Dashboards from './Pages/Dashboards';
+import Contact from './Pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -32,8 +33,8 @@ const router = createBrowserRouter([
         element:<Blog/>
       },
       {
-        path:"/dashboards",
-        element:<Dashboards/>
+        path:"/Contact",
+        element:<Contact/>
       },
     ]
   },
